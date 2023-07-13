@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const cors = require('cors');
-const port = process.env.PORT || 8050;
+const port = process.env.PORT || 21008;
 const app = express();
 const { validarCep } = require('./validations');
 
